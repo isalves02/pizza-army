@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:focus {
+	outline: transparent !important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	background: transparent;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button, 
+textarea {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1;
+	font-family: theme(fontFamily.body)
+} 
+
+ul, ol {
+	list-style-type: none;
+}
+
+input,
+button:not(:disabled) {
+	cursor: pointer;
+}
+
+a, span,
+h1, h2, h3,
+h4, h5, h6 {
+	color: theme(colors.gray-900);
+}
+
+p {
+	color: theme(colors.gray-800);
+}
+
+.border-t-solid {
+	border-top-style: solid;
+}
+
+.border-b-solid {
+	border-bottom-style: solid;
+}
+
+.box-shadow-l-menu {
+	box-shadow: #0000001A -10px 3px 6px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+.choose-flavour::after {
+  content: '';
+  width: 1.5rem;
+  height: 1.5rem;
+  
+  top: 50%;
+  z-index: -1;
+  right: .5rem;
+  position: absolute;
+  background: url('./assets/icons/arrow-down-input.svg') no-repeat;
+}
+
+::-webkit-scrollbar {
+    width: .4rem;
+    height: .4rem;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+    background-color: theme(colors.gray-300);
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: theme(colors.white);
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 3rem;
+    width: .8rem;
+    background-color: theme(colors.gray-600);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 3rem;
+    background-color: theme(colors.gray-600);
+}
