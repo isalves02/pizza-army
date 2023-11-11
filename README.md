@@ -33,7 +33,7 @@ Foi desenvolvido uma aplicação como solicitado no modelo de plataforma **e-com
 
 # Pré-requisitos
 
-Para executar faz-se necessário após clonar o projeto, acessar a pasta através do terminal e instalar o Node Package Manager:
+Para executar, faz-se necessário clonar o projeto, acessar a pasta através do terminal e instalar o Node Package Manager:
 
 ```
 npm install 
