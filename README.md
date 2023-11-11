@@ -9,7 +9,7 @@ Foi desenvolvido uma aplicação como solicitado no modelo de plataforma **e-com
 - Alterar sua quantidade através dos botões (-) e (+);
 - Para remover o produto completamente do carrinho, como no padrão dos e-commerces, é necessário clicar no X referente a este;
 - Como solicitado, o botão "finalizar compra" apenas fechará o menu;
-- Para adicionar um novo dado ao option, pode-se acessar o arquivo src/assets/data/Product.tsx e adicionar mais uma posição no objeto :)
+- Para adicionar um novo dado a ser selecionado, pode-se acessar o arquivo src/assets/data/Product.tsx e adicionar mais uma posição no objeto :)
 
 
 ## Dependências utilizadas
