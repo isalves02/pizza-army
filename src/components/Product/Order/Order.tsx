@@ -17,7 +17,7 @@ export function OrderProduct() {
     handleFlavourAddedToCart,
   } = useContext(ProductsContext)
 
-  
+
   return (
     <>
       <section className={`max-sm:container lg:container product py-16 ${isCartActive && 'blur-sm'}`}>
@@ -32,7 +32,7 @@ export function OrderProduct() {
                   )}
                 </div>
 
-                <div className="content w-full sm:px-4 pt-5 lg:columns-3xl">
+                <div className="content w-full pt-5 sm:px-4 lg:pl-12 lg:columns-3xl">
                   <div className="flex items-center justify-between font-sans">
                     <h1 className="text-2md leading-10 md:text-xl tracking-wider">{product.flavour}</h1>
 
