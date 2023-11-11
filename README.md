@@ -6,7 +6,7 @@ Projeto fictício promovido pela Caffeine Army.
 Foi desenvolvido uma aplicação como solicitado no modelo de plataforma **e-commerce** com o React + TypeScript + Vite + TailwindCSS, que contém as seguintes funcionalidades:
 
 - Selecionar um produto através do seletor;
-- Adicionar ou removê-lo através dos botões (-) e (+);
+- Alterar sua quantidade através dos botões (-) e (+);
 - Para remover o produto completamente do carrinho, como no padrão dos e-commerces, é necessário clicar no X referente a este;
 - Como solicitado, o botão "finalizar compra" apenas fechará o menu;
 - Para adicionar um novo dado ao option, pode-se acessar o arquivo src/assets/data/Product.tsx e adicionar mais uma posição no objeto :)
