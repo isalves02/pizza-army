@@ -49,7 +49,3 @@ Após a concluir a instalação, executar o projeto no terminal através do coma
 ```
 npm run dev 
 ```
-
-```
-npm run dev
-```
