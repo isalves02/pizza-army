@@ -12,18 +12,6 @@ Foi desenvolvido uma aplicação como solicitado no modelo de plataforma **e-com
 - Para adicionar um novo dado a ser selecionado, pode-se acessar o arquivo src/assets/data/Product.tsx e adicionar mais uma posição no objeto :)
 
 
-## Sobre a resolução
-Foi desenvolvido uma aplicação como solicitado no modelo de plataforma **e-commerce** com o React + TypeScript + Vite + TailwindCSS, que contém as seguintes funcionalidades:
-
-- Selecionar um produto através do seletor;
-- Alterar sua quantidade através dos botões (-) e (+);
-- Para remover o produto completamente do carrinho, como no padrão dos e-commerces, é necessário clicar no X referente a este;
-- Como solicitado, o botão "finalizar compra" apenas fechará o men
-Para executar, faz-se necessário clonar o projeto, acessar a pasta através do terminal e inst# Projeto Pizza Army
-
-Projeto fictício promovido pela Caffeine Army.
-
-
 ## Organização de pastas do projeto
 Os três maiores focos foram: performance, código limpo e fácil manutenibilidade. Portanto, esse projeto possui as seguintes pastas:
   - "src/assets/components": com os componentes da aplicação;
@@ -56,7 +44,7 @@ Para executar, faz-se necessário clonar o projeto, acessar a pasta através do 
 npm install 
 ```
 
-Após a conclusão da instalação, executar o projeto no terminal através do comando:
+Após a concluir a instalação, executar o projeto no terminal através do comando:
 
 ```
 npm run dev 
