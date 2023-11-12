@@ -49,18 +49,6 @@ p {
 	color: theme(colors.gray-800);
 }
 
-.border-t-solid {
-	border-top-style: solid;
-}
-
-.border-b-solid {
-	border-bottom-style: solid;
-}
-
-.box-shadow-l-menu {
-	box-shadow: #0000001A -10px 3px 6px;
-}
-
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -102,4 +90,16 @@ select {
 ::-webkit-scrollbar-thumb:horizontal {
     width: 3rem;
     background-color: theme(colors.gray-600);
+}
+
+.border-t-solid {
+	border-top-style: solid;
+}
+
+.border-b-solid {
+	border-bottom-style: solid;
+}
+
+.box-shadow-l-menu {
+	box-shadow: #0000001A -10px 3px 6px;
 }
