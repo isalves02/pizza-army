@@ -12,14 +12,6 @@ Foi desenvolvido uma aplicação como solicitado no modelo de plataforma **e-com
 - Para adicionar um novo dado a ser selecionado, pode-se acessar o arquivo src/assets/data/Product.tsx e adicionar mais uma posição no objeto :)
 
 
-
-
-# Pré-requisitos
-
-Para executar, faz-se necessário clonar o projeto, acessar a pasta através do terminal e inst# Projeto Pizza Army
-
-Projeto fictício promovido pela Caffeine Army.
-
 ## Sobre a resolução
 Foi desenvolvido uma aplicação como solicitado no modelo de plataforma **e-commerce** com o React + TypeScript + Vite + TailwindCSS, que contém as seguintes funcionalidades:
 
@@ -35,6 +27,7 @@ Projeto fictício promovido pela Caffeine Army.
 ## Organização de pastas do projeto
 Os três maiores focos foram: performance, código limpo e fácil manutenibilidade. Portanto, esse projeto possui as seguintes pastas:
   - "src/assets/components": com os componentes da aplicação;
+  - "src/assets/interfaces": com todas as interfaces utilizadas na aplicação;
   - "src/assets/contexts": para reunir as funções que serão acessadas por todos os componentes;
   - "src/assets/data": possui um arquivo contendo um array de objetos para definir os produtos que serão exibidos.
 
@@ -55,8 +48,6 @@ Os três maiores focos foram: performance, código limpo e fácil manutenibilida
   - "vite": "^4.4.5"
 
 
-
-
 ## Pré-requisitos
 
 Para executar, faz-se necessário clonar o projeto, acessar a pasta através do terminal e instalar o Node Package Manager:
@@ -65,7 +56,11 @@ Para executar, faz-se necessário clonar o projeto, acessar a pasta através do 
 npm install 
 ```
 
-Depois só executar o projeto no terminal através do comando:
+Após a conclusão da instalação, executar o projeto no terminal através do comando:
+
+```
+npm run dev 
+```
 
 ```
 npm run dev
