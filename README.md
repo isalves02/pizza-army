@@ -38,6 +38,7 @@ Os três maiores focos foram: performance, código limpo e fácil manutenibilida
 
 ## Pré-requisitos
 
+Esse projeto não possui pré-requisitos. 
 Para executar, faz-se necessário clonar o projeto, acessar a pasta através do terminal e instalar o Node Package Manager:
 
 ```
